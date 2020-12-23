@@ -1,0 +1,26 @@
+author: Vasily Kiniv
+description: Example application for DS4 library
+version: 1.0.0
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+tags:
+  - c
+  - ds4
+
+sources:
+  - src
+
+build_vars:
+
+config_schema:
+  - ["ds4.enable", true]
+  - ["wifi.ap.enable", false]
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: ../libs/ds4
+
+manifest_version: 2017-09-29
