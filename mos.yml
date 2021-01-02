@@ -21,6 +21,6 @@ config_schema:
 
 libs:
   - origin: https://github.com/mongoose-os-libs/boards
-  - origin: ../libs/ds4
+  - origin: https://github.com/v-kiniv/ds4
 
 manifest_version: 2017-09-29
